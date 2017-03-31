@@ -5,20 +5,23 @@ body {
 /*end general*/
 /*header*/
 .header {
-    background: #002f69;
-    height: 95px;
+    background: #0d3a71;
+    height: 75px;
     color: #fff;
 }
 img.logo {
-    margin-top: 20px;
-    padding-right: 30px;
-    border-right: 1px solid #8097b4;
+    width: 218px;
 }
 h2.title {
     text-transform: uppercase;
     color: #fff;
-    padding-top: 35px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: lighter;
+    border-left: 1px solid #fff;
+    height: 40px;
+    line-height: 38px;
+    padding-left: 16px;
 }
 .userName {
     float: left;
@@ -27,5 +30,7 @@ h2.title {
 
 .userData {
     padding-top: 30px;
+    float: right;
+    padding-right: 18px;
 }
 /*end header*/
