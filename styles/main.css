@@ -1,0 +1,31 @@
+/*general*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*end general*/
+/*header*/
+.header {
+    background: #002f69;
+    height: 95px;
+    color: #fff;
+}
+img.logo {
+    margin-top: 20px;
+    padding-right: 30px;
+    border-right: 1px solid #8097b4;
+}
+h2.title {
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 35px;
+    font-size: 18px;
+}
+.userName {
+    float: left;
+    padding-right: 9px;
+}
+
+.userData {
+    padding-top: 30px;
+}
+/*end header*/
