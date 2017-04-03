@@ -6,17 +6,18 @@ body {
 /*header*/
 .header {
     background: #0d3a71;
-    height: 75px;
+    min-height: 75px;
     color: #fff;
 }
 img.logo {
     width: 218px;
+    padding-top: 17px;
 }
 h2.title {
     text-transform: uppercase;
     color: #fff;
     margin-top: 20px;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: lighter;
     border-left: 1px solid #fff;
     height: 40px;
@@ -34,3 +35,49 @@ h2.title {
     padding-right: 18px;
 }
 /*end header*/
+/*landing*/
+.banner{
+    background: url("../img/banner.png");
+    min-height: 100%;
+    background-size: cover;
+    color: #fff;
+}
+.bankName {
+    font-size: 22px;
+    margin-top: 174px;
+    padding-left: 113px;
+    text-transform: uppercase;
+}
+
+.slogan {
+    font-size: 50px;
+    padding-left: 110px;
+    text-transform: uppercase;
+}
+.flagBorder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #3a2d22;
+    overflow: hidden;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    transform: rotate(315deg);
+    margin-top: -20px;
+}
+
+.flag img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-315deg);
+}
+
+.flagCont {
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+
+.flag {
+    float: left;
+}
+/*end landing*/
